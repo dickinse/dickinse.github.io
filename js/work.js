@@ -2,24 +2,24 @@
    
 var works = [
    {
-      title: "First Project",
+      title: "Hotel Template",
       pic: "img/redmac.png",
-      lnk: "http://www.google.com"
+      lnk: "http://dickinse.github.io/avemaria/"
    },
    {
-      title: "Second Project",
+      title: "Pet Sitting",
       pic: "img/yellowmc.png",
-      lnk: "http://www.twitter.com"
+      lnk: "http://dickinse.github.io/ktps/"
    },
    {
-      title: "Third Project",
+      title: "Journalistic",
       pic: "img/redmac.png",
-      lnk: "http://www.minecraft.com"
+      lnk: "http://dickinse.github.io/journalistic/"
    },
    {
-      title: "Fourth Project",
+      title: "Book template",
       pic: "img/yellowmc.png",
-      lnk: "http://www.yahoo.com"
+      lnk: "https://dry-plains-9384.herokuapp.com/"
    }
 ];
 
