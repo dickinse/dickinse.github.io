@@ -1,14 +1,32 @@
 a:link, a:visited, a:hover, a:active {
   font-family: Goudy Old Style, Didot, Baskerville, serif;
   color: #B24900;
-  text-decoration: none; }
+  text-decoration: none; 
+}
+
+html { 
+    background: url(/img/bg1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #00A5B2;
+    min-height: 100%;
+}
 
 body {
-  background-color: #FFFFFF;
-  color: #00A5B2;
-  position: relative; }
+    margin-bottom: 60px;
+}
 
-/*Typography */
+.right-box {
+    float: right;
+    background: rgba(64,99,97,.8);
+    padding-bottom: 3em;
+    color: white;
+    max-height: 45em;
+    overflow-y: auto;
+}
+
 h1, h2, h3 {
   font-family: 'Raleway', Futura, Helvetica, Arial, sans-serif;
   text-align: center;
@@ -16,237 +34,25 @@ h1, h2, h3 {
   color: #B24900; }
 
 h1 {
-  letter-spacing: 0.5em; }
+  font-family: Goudy Old Style, Didot, Baskerville, serif;
+  letter-spacing: 0.5em; 
+}
 
 h3 {
-  margin: 0;
-  font-size: 0.8em; }
+    margin: 0;
+    font-size: 0.8em; }
 
-p {
-  display: inline; }
-
-p, li {
-  font-family: Goudy Old Style, Didot, Baskerville, serif; }
-
-/*Regular Classes*/
-header {
-  margin-bottom: 40px; }
-
-.cont {
-  margin: 25px auto;
-  padding: 20px; }
-
-selector {
-  position: relative; }
-
-div {
-  display: block; }
-
-footer {
-  text-align: center; }
-
-/*Custom Classes*/
-.jumbotron {
-  background: transparent;
-  text-align: center; }
-
-.img {
-  display: inline-block;
-  float: left; }
-
-.column {
-  display: inline-block;
-  float: right;
-  width: 30%; }
-
-.main-text {
-  clear: both;
-  padding-top: 30px;
-  text-align: justify; }
-
-.contact-text {
-  clear: both;
-  padding-top: 60px;
-  padding: 20px;
-  width: 300px;
-  margin: 100px auto;
-  text-align: justify; }
-
-.skills {
-  background-color: rgba(32, 47, 71, 0.5);
-  padding: 10px; }
-
-.contact-button {
-  border-style: double;
-  border-width: thick;
-  display: inline-block;
-  margin: 6px auto;
-  padding: 10px; }
-
-.intro p {
-  font-family: 'Raleway', Futura, Helvetica, Arial, sans-serif;
-  font-size: 3em;
-  font-weight: 100;
+p, li, form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: .9em;
 }
 
-.btn, .btn:hover {
-  border-style: double;
-  border-width: thick;
-  border-color: white;
-  display: inline-block;
-  padding: 10px;
-  background: transparent; }
-
-.modal-button {
-  float: right;
-  padding: 15px; }
-
-.modal-button .btn {
-  border-color: #B24900;
-  color: #15243d;
-  padding: 5px; }
-
-.learn-more {
-  text-align: left;
-  float: left; }
-
-.navbar-collapse .navbar-nav{
-   float:right
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    font-size: 10px;
+    background-color: #f5f5f5;
 }
-
-.navbar-inverse .navbar-collapse ul li a{
-   color: black;
-   text-transform: lowercase;
-   font-weight:700
-}
-
-.navbar-inverse .navbar-collapse a{
-   color:#fff;
-   text-transform:uppercase;
-   font-weight:700
-}
-
-.navbar-inverse .navbar-collapse ul li a:hover{
-   background-color: #87F6FF;
-   text-decoration: line-through;
-   text-transform: uppercase;
-   font-weight:700;
-}
-
-.container-fluid .navbar-header .navbar-brand a{
-   text-transform:uppercase;
-   padding-left:20px
-}
-
-.container-fluid .navbar-header .navbar-brand a:hover{
-   text-decoration:none;
-   padding-left:20px;
-}
-
-.navbar-inverse{
-   background-color:transparent;
-   opacity:.8;
-   position:fixed;
-   width:100%;
-   top:0;
-   z-index:1}
-
-.projectName {
-  font-size: 2.5em;
-  letter-spacing: 0.3em; }
-
-.projectName a {
-  color: white; }
-
-.anchor {
-  padding-top: 50px; }
-
-* {
-  box-sizing: border-box; }
-
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto; }
-
-/* FAQ Collapsible */
-.panel, .panel-body, .panel-title, .panel-heading {
-  background: transparent !important;
-  border: none;
-  font-family: Goudy Old Style, Didot, Baskerville, serif; }
-
-/*Contact */
-#contact {
-  background: url("../img/frst.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -mod-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  color: white;
-  margin: 0em;
-}
-
-#contact h1 {
-  color: white;
-  }
-
-/*IDs*/
-#resume {
-  height: 500px;
-  width: 100%;
-  padding: 20px; }
-
-#info .btn {
-  display: block;
-  border-style: double;
-  border-width: thick;
-  border-color: #B24900;
-  padding: 10px;
-  background: transparent;
-  margin: auto; }
-
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color: #f00;
- }
- 
-#about {
-  background: url("../img/thnks.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -mod-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-}
-
-.work-img {
-   display: block;
-   margin: auto;
-   max-width: 200px;
-   position: relative;
-}
-
-.info {
-   position:absolute;
-   top: 15%;
-   left: 22%;
-   color: #fff;;
-   font-family: Futura;
-   text-transform: uppercase;
-   font-weight: 700;
-   letter-spacing: 0.5em;
-   line-height: 1.6;
-   display: none;
-}
-
-.proj-title {
-   font-weight: 100;
-   color: black;
-}
-
-#map {
-   height: 300px;
-   width: 100%;
-}
-/*# sourceMappingURL=style.css.map */
