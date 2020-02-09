@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,9 +8,11 @@
     <title>Hi</title>
 
     <!-- Bootstrap core CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!--Custom Style-->
       <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,297 +21,39 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target=".navbar">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="navbar-brand">
-            <a href='/'>Elaine</a>
+  <body>
+      <div class="container col-md-5 col-sm-6 right-box">
+            <img src="img/me.jpg" class="float-left border-0 w-25 h-25 p-3"><h1>Hi, I'm Erika.</h1><p>I'm Erika, and I currently reside in Boston, Massachusetts. I am a software tester by day, and a nerd by night.</p>
+          <p>I am extremely motivated by the prospect of ingenuity. I love making things work better and helping people to work a smarter, not harder. Every day I go into work, I try to make one thing a little bit better; one process a little more seamless. It is impossible to solve everything all at once, but if I can make one process a little clearer or more streamlined, that’s a step on the road I am happy to be on.</p>
+          <p>I bring my very diverse background. I have worked for a long time in the field of hospitality, and so I understand a little bit more of how the average person thinks. This allows me to create a more diverse array of test cases that others who have only worked in one field might struggle with. I also have quite a bit of managerial experience, and this allows me to give sound advice as well as confidentially take initiative in ways others might not.</p>
+          <p>I am also a poet and a photographer in my spare time. I shoot mostly black and white street photography on film, and do most of the development myself. As for my poetry, I can be found at various open mics around the city throughout the month. When not engaging with either of these hobbies, I also run a few Dungeons and Dragons campaigns.</p>
+        <form>
+          <div class="form-group">
+            <label for="emailaddress">Email address</label>
+            <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email. Pinky swear.</small>
           </div>
-        </div>
-          <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#contact">Contact Me</a></li>
-              <li><a href="#work">Work</a></li>
-              <li><a href="#info">Learn More</a></li>
-              <li><a href="#faq">faq</a></li>
-              <li><a href="#about">About Me</a></li>
-            </ul>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
           </div>
-        </div>
-    </nav>
-    <div class="container-fluid" id="top">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-      
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-              <img src="img/tbl.jpg" alt="...">
-            <div class="carousel-caption">
-              <div class="jumbotron">
-              </div>
-            </div>
-          </div>
-          <div class="item">
-              <img src="img/two.jpg" alt="...">
-            <div class="carousel-caption">
-              <div class="jumbotron">
-              </div>            
-            </div>
-          </div>
-         <div class="item">
-              <img src="img/three.jpg" alt="Banansa">
-            <div class="carousel-caption">
-              <div class="jumbotron">
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      </div>
-    <div class="container anchor" id="info">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Web Consulting</h2>
-          <p>For small companies just starting out in the realm of web development, the process can be an ordeal. I can provide useful information and previous expertise.</p>
-          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="More information">View details &raquo;</button>
-        </div>
-        <!-- /col -->
-        <div class="col-md-4">
-          <h2>Web Development</h2>
-          <p>I'm knowledgeable in CSS3, JavaScript, JQuery, Ruby, HTML5, and Java. I can provide design, front-end, and back-end devleopment.</p>
-          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="More information">View details &raquo;</button>
-       </div>
-       <!-- /col -->
-        <div class="col-md-4">
-          <h2>UI Design</h2>
-          <p>Being freelance means taking part more aspects of a project especially UI design and experience. One of the best parts is <a href="#" title="More Information" id="item1">choosing which projects</a> I get to work on.</p>
-          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="More information">View details &raquo;</button>
-        </div>
-        </div>
-    </div>
-    <div class="container-fluid anchor" id="about">
-            <h1>About Me</h1>
-              <div class="cont">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-4">
-                      <img src="img/moi.png" class="img-responsive thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-4">
-                      <div class=intro column>
-                        <h2>Les Annes Passent Rien Ne Change</h2>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-xs-4">
-                        <div class=skills column>      
-                        <ul id="skill-list">
-                            <h2>Skills</h2>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>Ruby</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                    <div class="main-text">
-                           <p>
-                            I'm Erika, and I currently reside in Cambridge, Massachusetts. I works part-time at <a href="http://www.aeronaut.com">Aeronaut Brewery</a> and do coding during the day. I'm currently working on a few projects and I'm working on a text based adventure game. I am also studying Aeronautics at Embry-Riddle Aeronautical University. 
-                           </p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="row">
-                <h2 class="learn-more">Learn More</h2>
-                <div class="modal-button">
-                  <button class="btn btn-primary" data-toggle="modal" data-target=".smodalmore">Learn More</button>
-                </div>
-            </div>
-            <div class="modal fade smodalmore" tabindex="-1" role="dialog" aria-labelledby="mdl-lbl" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title" id="modal-lbl">Resume</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  </div>
-                  <div class="modal-body">
-                    <embed id="resume" src="img/resume.pdf">
-                  </div>
-                  </div>
-                </div>
-              </div>
-    </div>
-    <div class="container anchor" id ="faq">
-      <h1>Questions Abound!</h1>
-      <h3>click around, make yourself at home</h3>
-      <div class="cont">
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
-              <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Why did you decide to become a Web Developer?
-                </a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-              <div class="panel-body">
-                One day, I decided that there were lots of ugly pages on the internet, and since I'm going to be starting at the internet all day anyway, I decided to try and make them less ugly. So far so good.
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Where are you located?
-                </a>
-              </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-              <div class="panel-body">
-                I am currently located in the woods of this background picture, but for the purposes of work and mailing addresses, you can find me in New York City.
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                 What are your rates?
-                </a>
-              </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-              <div class="panel-body">
-                I work for one pizza an hour. A good pizza. A $20 pizza. In pizza cash.
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingFour">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  I'd like to barter.
-                </a>
-              </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-              <div class="panel-body">
-                I accept actual pizza and anything else would have to be dicussed find me <a href="#contact">here</a>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingFive">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  How much wood would a woodchuck chuck if a woodchuck could chuck wood?
-                </a>
-              </h4>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-              <div class="panel-body">
-                I think they prefer apples, actually. And they're more affectionately known as <a href="https://en.wikipedia.org/wiki/Groundhog">Groundhogs</a>
-            </div>
-          </div>
-        </div>
-                    </div>
-        </div>
-        </div>
-
-    <div class="container anchor" id="work">
-      <h1>Projects</h1>
-    </div>
-
-    <div class="container-fluid" id="contact" data-stellar-background-ration="0.5">
-      <div class="row">
-        <div class="col-lg-4 col-md-4">
-         <div id="map">
-         </div>
-            <h1>Contact me</h1>
-            <p>
-              If you need to contact me for design work, creative consultation, or birthday parties, feel free to use the email address below, or for more pressing matters (i.e. easter cards), feel free to call/text the number below. 
-              </p>
-            <h2>
-              <span class="glyphicon glyphicon-envelope"></span>
-              <a href="mailto:hi@eelainedickinson.com">hi@eelainedickinson.com</a>
-              </h2>
-            <center>
-                <div class="contact-button">
-                  <span class="glyphicon glyphicon-cloud"></span>
-                  <a href="https://github.com/dickinse/">GitHub</a>
-                </div>
-              <div class="contact-button">
-                  <span class="glyphicon glyphicon-earphone"></span>
-                  407-494-6461
-              </div>
-            </center>
-<!--           <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ46AbYjZ344kR79DgaEAAIbA&key=AIzaSyCWA_pWPlEnBcVCxMjXgi9SR5WvqKnW_GA" allowfullscreen></iframe>-->
-        </div>
-        <div class="col-lg-8 col-md-8">
-            <form>
-              <p>All forms required*</p>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" class="form-control" placeholder="name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" class="form-control" placeholder="email" required>
-              </div>
-              <div class="form-group">
-                <label for="telly">Telephone</label>
-                <input type="text" class="form-control" id="telly" placeholder="555-555-5555" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}">
-              </div>
-              <div class="form-group">
+            <div class="form-group">
                 <label for="message-box">Enter Message</label>
                 <textarea id="message-box" class="form-control" placeholder="Your message here" minlength=10 style="resize: none;" cols="40" rows="5" required></textarea>
                  <p id="visible-comment">
                  </p>
-              </div>
-              <button type="submit" class="btn btn-default">Drop me a line</button>
-              </form>
-        </div>
-        </div>
+            </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
-
-    <footer>
-      <a href="http://twitter.com/spacefleur"><img src="img/twt.png"> Follow me on twitter |</a> 
-      <a href="http://facebook.com/ewindu"><img src="img/fb.png"> Find me on Facebook |</a> 
-      <a href="http://instagram.com/cosmonaut88"><img src="img/nst.png"> Follow me on instagram</a> 
-      <br>
-      <p>
-        &copy; 2015, E.Dickinson  &hearts; from 02150
-      </p>
-    </footer>
-    
+  </body>
+	<footer class="footer mt-auto py-3">
+	  <div class="container">
+	  	<span>
+	  	<a href="http://twitter.com/spacefleur"><img src="img/twitter.svg" style="width: 30px; height: 30px;">Twitter</a><a href="http://instagram.com/sylvia.moss.photography"><img src="img/instagram.svg" style="width: 30px; height: 30px;">Instagram</a><p>&copy; 2020 dickinse &hearts; from 02135</p>
+	  </span>
+	  </div>
+	</footer>
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
@@ -321,14 +64,7 @@
      
      <!-- Custom Scripts-->
      <script src="js/scripts.js"></script>
-     <script src="js/work.js"></script>
 
     <!-- Bootstrap core JS -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-     <!--Google Maps Javascript-->
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWA_pWPlEnBcVCxMjXgi9SR5WvqKnW_GA&callback=initMap">
-    </script>
-
-  </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 </html>
