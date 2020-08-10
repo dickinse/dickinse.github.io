@@ -1,5 +1,5 @@
 a:link, a:visited, a:hover, a:active {
-  font-family: Goudy Old Style, Didot, Baskerville, serif;
+  font-family: 'Antic Slab', serif;
   color: #B24900;
   text-decoration: none; 
 }
@@ -15,7 +15,8 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', sans-serif;  
 }
 
 .right-box {
@@ -31,18 +32,10 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Raleway', Futura, Helvetica, Arial, sans-serif;
+  font-family: 'Antic Slab', serif;
   text-align: left;
   color: #000e03; 
 }
-
-h1 {
-  font-family: Goudy Old Style, Didot, Baskerville, serif;
-}
-
-h3 {
-    margin: 0;
-    font-size: 0.8em; }
 
 p, li, form {
     font-family: 'Montserrat', sans-serif;
